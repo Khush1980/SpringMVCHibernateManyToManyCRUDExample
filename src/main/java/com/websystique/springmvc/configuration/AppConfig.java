@@ -39,6 +39,7 @@ public class AppConfig extends WebMvcConfigurerAdapter{
 		viewResolver.setPrefix("/WEB-INF/views/");
 		viewResolver.setSuffix(".jsp");
 		registry.viewResolver(viewResolver);
+		System.out.println("Configure ViewResolvers to deliver preferred views"+registry);
 	}
 	
 	/**
