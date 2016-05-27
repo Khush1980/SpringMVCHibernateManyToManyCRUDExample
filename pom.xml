@@ -124,12 +124,8 @@
         </plugin>
     </plugins>
  
-				
-				
-				
-				
-				
-			</plugins>
+		
+			
 		</pluginManagement>
 		<finalName>SpringMVCHibernateManyToManyCRUDExample</finalName>
 	</build>
