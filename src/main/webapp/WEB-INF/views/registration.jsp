@@ -20,7 +20,6 @@
 	
 	
  	<div class="generic-container">
- <div class="well lead">Please Register here....</div>	
 	<div class="well lead">User Registration Form</div>	<div class="well lead">
 	 		Go to <a href="<c:url value='/list' />">Users List</a>
 	 	</div>
