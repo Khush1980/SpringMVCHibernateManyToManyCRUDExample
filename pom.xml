@@ -117,9 +117,9 @@
             <configuration>
                      <server>mytomcatserver</server>
                      <path>/springgreetings</path>
-                     <url>http://localhost:8080/manager</url>
-                     <username>admin</username>
-                     <password>admin</password>
+                     <url>http://localhost:8080/manager/text</url>
+                     <username>ramesh</username>
+                     <password>ramesh</password>
             </configuration>
         </plugin>
     </plugins>
