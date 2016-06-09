@@ -115,7 +115,7 @@
     <configuration>
             <url>http://localhost:8080/manager/html</url>
             <server>localhost</server>
-    <path>/myapppath</path>         
+    <path>/SpringMVCHibernateManyToManyCRUDExample</path>         
     </configuration>
 </plugin> 
    
