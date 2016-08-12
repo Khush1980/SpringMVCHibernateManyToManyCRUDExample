@@ -13,8 +13,12 @@
 		<springframework.version>4.1.7.RELEASE</springframework.version>
 		<hibernate.version>4.3.10.Final</hibernate.version>
 		<mysql.connector.version>5.1.31</mysql.connector.version>
-	</properties>
-
+		 <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+	
+    <maven.compiler.source>7</maven.compiler.source>
+    <maven.compiler.target>7</maven.compiler.target>
+  </properties>
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
@@ -85,7 +89,11 @@
 		    <artifactId>jstl</artifactId>
 		    <version>1.2</version>
 		</dependency>
-		
+		 <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+    </dependency>
 	</dependencies>
 
 	<build>
@@ -104,6 +112,27 @@
 				
 		
 				
+    <plugin>
+      <groupId>org.jacoco</groupId>
+      <artifactId>jacoco-maven-plugin</artifactId>
+      <version>0.6.4.201312101107</version>
+      <executions>
+        <execution>
+          <id>pre-unit-test</id>
+          <goals>
+            <goal>prepare-agent</goal>
+          </goals>
+        </execution>
+        <execution>
+          <id>post-unit-test</id>
+          <phase>test</phase>
+          <goals>
+            <goal>report</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+
 				
 				
 				
