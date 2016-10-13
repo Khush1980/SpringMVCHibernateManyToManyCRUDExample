@@ -20,7 +20,7 @@
 	
 	
  	<div class="generic-container">
-	<div class="well lead">User Registration Form1111</div>	<div class="well lead">
+	<div class="well lead">User Registration Form</div>	<div class="well lead">
 	 		Go to <a href="<c:url value='/list' />">Users List</a>
 	 	</div>
  	<form:form method="POST" modelAttribute="user" class="form-horizontal">
@@ -28,7 +28,7 @@
 		
 		<div class="row">
 			<div class="form-group col-md-12">
-				<label class="col-md-3 control-lable" for="firstName">First Name123</label>
+				<label class="col-md-3 control-lable" for="firstName">First Name</label>
 				<div class="col-md-7">
 					<form:input type="text" path="firstName" id="firstName" class="form-control input-sm"/>
 					<div class="has-error">
